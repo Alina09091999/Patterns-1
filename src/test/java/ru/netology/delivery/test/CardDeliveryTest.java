@@ -26,7 +26,7 @@ class CardDeliveryTest {
     @DisplayName("Should successful plan meeting")
     void shouldSuccessfulPlanMeeting() {
         DataGenerator.UserInfo validUser = DataGenerator.Registration.generateUser("ru");
-        int daysToAddForFirstMeeting = 4;
+        int daysToAddForFirstMeeting = 2;
         String firstMeetingDate = DataGenerator.generateDate(daysToAddForFirstMeeting);
         int daysToAddForSecondMeeting = 7;
         String secondMeetingDate = DataGenerator.generateDate(daysToAddForSecondMeeting);
